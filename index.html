@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+   <title>fourfourlabs</title>
+   <style>
+      body {
+         background-color: #000; /* black background */
+         margin: 0; /* remove default margin */
+         text-align: center; /* center all text and images */
+      }
+      
+      img {
+         display: block; /* make image a block element */
+         margin: 20px auto; /* center image horizontally and add some space above and below */
+         width: 100%; /* set width to 100% for mobile devices */
+         height: auto; /* maintain aspect ratio */
+         max-width: 100px; /* set max width for larger screens */
+         padding: 20%;
+      }
+      
+      a {
+
+         font-family: Verdana, sans-serif; /* set font family to Verdana */
+         font-size: 1.1em; /* set font size to 1.2 times the default size */
+         color: #fff; /* white text color for the email link */
+         text-decoration: none; /* remove underline */
+         font-style: italic;
+      }
+      
+      a:hover {
+         text-decoration: underline; /* add underline on hover */
+      }
+      
+      /* Media query for mobile devices (max-width: 768px) */
+      @media only screen and (max-width: 768px) {
+         img {
+            width: 90%; /* reduce width to 90% for mobile devices */
+            margin: 10px auto; /* reduce margin to 10px for mobile devices */
+         }
+      }
+   </style>
+</head>
+<body>
+   <img src="fourfour.png" alt="fourfour">
+   <a href="mailto:hello@fourfourlabs.io">hello@fourfourlabs.io</a>
+</body>
+</html>
